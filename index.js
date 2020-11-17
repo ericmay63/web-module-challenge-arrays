@@ -45,7 +45,9 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
+function copy(originalFlavors){
+    const cloneoriginalFlavors = [...originalFlavors];
+    console.log(cloneoriginalFlavors);
     /*your code here*/
 }    
 
@@ -64,7 +66,12 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
+function is31Flavors(originalFlavors/*your code here*/){
+    console.log(originalFlavors.length);
+    if [] =31 console.log (true );
+    else if [] < 31 console.log (false);
+
+
    /*your code here*/
 }
 
@@ -81,8 +88,11 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
+function addFlavor(originalFlavors/*your code here*/){
    /*your code here*/
+   console.log (originalFlavors);
+   originalFlavors.unshift('Rainbow Sherbert');
+   console.log (originalFlavors);
 }
 
 
@@ -98,6 +108,8 @@ Use the removeLastFlavor function below to do the following:
 */
 
 function removeLastFlavor(/*your code here*/){
+    console.log (originalFlavors);
+    originalFlavors.pop();
    /*your code here*/
 }
 
@@ -115,6 +127,8 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 function getFlavorByIndex(/*your code here*/){
+    console.log(originalFlavors);
+    console.log(originalFlavors[4]);
     /*your code here*/
 }
 
@@ -135,6 +149,8 @@ Use the removeFlavorByName function below to do the following:
 */
 
 function removeFlavorByName(/*your code here*/){
+    console.log(originalFlavors);
+    
     /*your code here*/
 }
 
